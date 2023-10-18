@@ -1,0 +1,32 @@
+body {
+    background-image: url('./image/background.jpg');
+    background-size: cover;
+}
+ .rectangle-container {
+  width: 1200px;
+  height: 600px;
+  background-color: #eaeaea;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.custom-input {
+  width: 600px;
+  height: 300px;
+  resize: none;
+}
+.button1 {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+p {
+    font-size: 24px;
+}
